@@ -21,4 +21,29 @@ nav li {
   color: #333;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  padding: unset;
+}
+.header .login {
+  display: inline-block;
+}
+.header img {
+  margin-right: 90px;
+}
+.header .search-bar {
+  display: flex;
+  align-items: center;
+}
+.header .search-bar i {
+  color: gray;
+}
+.header .search-bar input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
