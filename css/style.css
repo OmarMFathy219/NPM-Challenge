@@ -1,0 +1,24 @@
+/* Start Import */
+body {
+  margin: unset;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav p {
+  float: left;
+}
+nav p .heart-icon {
+  margin-right: 30px;
+}
+nav li {
+  list-style: none;
+  float: right;
+  padding: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+/*# sourceMappingURL=style.css.map */

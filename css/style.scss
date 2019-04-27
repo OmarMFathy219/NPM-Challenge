@@ -1,2 +1,24 @@
 /* Start Import */
 @import "main";
+body{
+    margin: unset;
+}
+.clearfix{
+    clear: both;
+}
+
+nav {
+    p{
+        float: left;
+        .heart-icon{
+            margin-right: 30px;
+        }
+    }
+    li {
+        list-style: none;
+        float: right;
+        padding: 10px;
+        font-weight: 600;
+        color:#333;
+    }
+}
